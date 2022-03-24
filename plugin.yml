@@ -1,0 +1,19 @@
+name: JoinTitle
+version: '1.0'
+main: com.jointitle.jointitle.JoinTitle
+prefix: JT
+authors: [ ZeFiR ]
+
+commands:
+  Config:
+    description: Команда перезагружет конфиг
+    permission: com.jointitle.config
+    permission-message: У вас нет прав!
+
+  TestTitle:
+    usage: |
+      Ошибка в команде
+      Использование: /<command>
+    description: Команда позволяет проверить title
+    permission: com.jointitle.test
+    permission-message: У вас нет прав!
